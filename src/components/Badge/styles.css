@@ -1,0 +1,17 @@
+.badge-active {
+  background: rgb(76, 175, 80);
+}
+.badge-inactive {
+  background: rgb(244, 67, 54);
+}
+
+.bagde {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: rgb(255, 255, 255);
+  height: 24px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

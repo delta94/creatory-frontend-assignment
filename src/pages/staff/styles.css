@@ -1,0 +1,36 @@
+.employee-wrapper {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 20px;
+  border: 0;
+  display: flex;
+  position: relative;
+  font-size: 0.875rem;
+  min-width: 0;
+  word-wrap: break-word;
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 14%);
+  margin-top: 30px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.title-box {
+  padding: 15px;
+  margin-top: -40px;
+  border-radius: 3px;
+  box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%),
+    0 7px 10px -5px rgb(255 152 0 / 40%);
+  background: linear-gradient(60deg, #ffa726, #fb8c00);
+}
+
+.title-box h4 {
+  color: #fff;
+  margin-top: 0px;
+  min-height: auto;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  margin-bottom: 3px;
+  text-decoration: none;
+}

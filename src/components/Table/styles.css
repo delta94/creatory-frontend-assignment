@@ -1,0 +1,55 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+}
+
+thead tr th {
+  font-weight: 500;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+th,
+td {
+  padding: 8px;
+  overflow-wrap: break-word;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.is-hover {
+  background-color: #fafafa;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}
+
+.pagination-wrapper {
+  display: flex;
+}
+
+.pagination-input {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.input-pagination {
+  max-width: 24px;
+  margin-right: 5px;
+}
