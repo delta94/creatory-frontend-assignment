@@ -2,7 +2,6 @@ import React from "react";
 import Proptypes from "prop-types";
 
 function TableHeader({ style, name, ...rest }) {
-  console.log(style);
   return (
     <th style={style} {...rest}>
       {name}

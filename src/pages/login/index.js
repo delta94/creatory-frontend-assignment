@@ -8,7 +8,6 @@ import "./styles.css";
 function Login() {
   const { handleLogin, isLoading, isAuthenticated, error } = useAuth();
   const history = useHistory();
-  console.log(error);
   const {
     register,
     handleSubmit,

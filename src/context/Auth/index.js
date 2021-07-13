@@ -1,8 +1,9 @@
 import React, { createContext, useCallback, useContext, useState } from "react";
-// import { useRouter } from "next/router";
+import { Redirect } from "react-router-dom";
 import { AuthService } from "../../services";
 import { useLocalStorageState } from "../../hooks/useLocalStorage";
 import { KEY_AUTH } from "../../sysconfig";
+import { PATH } from "../../constants/path";
 
 const AuthContext = createContext({});
 
@@ -17,6 +18,7 @@ export const AuthProvider = ({ children }) => {
   const logout = () => {
     window.localStorage.removeItem(KEY_AUTH);
     setIsAuthenticated(null);
+    return <Redirect to={PATH.LOGIN} />;
   };
 
   const handleLogin = useCallback(

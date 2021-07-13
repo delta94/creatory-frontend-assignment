@@ -1,4 +1,4 @@
-import { GET, StaffClient } from "../clients";
+import { GET } from "../clients";
 import { STAFF_API } from "../constants/APIUri";
 
 export const getStaffInfo = async (props) => {
@@ -8,6 +8,5 @@ export const getStaffInfo = async (props) => {
     offset,
   };
   const res = await GET({ url: STAFF_API.GET_STAFF_INFO, params });
-  console.log(res);
   return res;
 };
